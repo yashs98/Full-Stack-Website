@@ -1,0 +1,57 @@
+#sidebar {
+    position: fixed;
+    float: left;
+    box-sizing: border-box;
+    background-color: aqua;
+    width: 80px;
+    bottom: 550px;
+    color: white;
+
+
+
+}
+
+h1 {
+    position: relative;
+    left: 90px;
+
+}
+
+p {
+    overflow: hidden;
+}
+
+.important {
+    margin-left: 70%;
+    position: relative;
+    float: right;
+    overflow: scroll;
+    background-color: yellow;
+    height: 100px;
+    width: 200px;
+    bottom: 750px;
+
+}
+
+
+
+.more-important {
+    margin-left: 90px;
+    margin-top: 130px;
+    
+    background-color: violet;
+    height: 90px;
+    width: 200px;
+    overflow: visible;
+
+}
+
+.not-important {
+    margin-top: 50px;
+    overflow: hidden;
+    float: left;
+    background-color: crimson;
+    width: 120px;
+    height: 90px;
+    overflow: hidden;
+}

@@ -1,0 +1,61 @@
+
+.big-letter{
+    font-weight: bold;
+    font-size: 60px;
+    font-style: italic;
+
+}
+
+.outer {
+
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 3px black;    
+    background-color: aqua; 
+    border-style: dashed;
+
+
+}
+
+.inner1 {
+    padding: 20px;
+    float: right;
+    margin: 10px;
+
+    border: 3px black;
+    border-style: dashed;
+    height: 34px;
+    width: 34px;
+    background-color: white;
+    overflow: visible;
+
+}
+
+
+.inner2 {
+    border: 3px black;
+    border-style: dashed;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+
+
+}
+
+.inner3 {
+
+    border: 3px black;
+    border-style: dashed;
+    float: right;
+    margin-top: 40px;
+    margin-right: 0px;
+ 
+    height: 54px;
+    width: 94px;
+    background-color: white;
+    
+}

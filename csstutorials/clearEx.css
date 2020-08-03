@@ -1,0 +1,41 @@
+.div3 img {
+    float: left;
+    border: 3px;
+    border-color: blue;
+    border-style: solid;
+    background-color: gold;
+    margin-right: 5px;
+}
+
+.div3 {
+    background-color: gold;
+    font-size: 20px;
+
+}
+
+
+.clear-it {
+    clear: both;
+}
+
+.div4 img {
+    float: right;
+    border: 3px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    margin-top: 30px;
+    margin-right: 10px;
+
+
+}
+
+
+.div4 {
+    background-color: fuchsia;
+    height: 150px;
+    font-size: 20px;
+
+
+}
+

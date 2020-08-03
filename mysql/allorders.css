@@ -1,0 +1,50 @@
+table {
+	margin-left:auto; 
+    margin-right:auto;
+	padding: 5px;
+    margin-top: 10px;
+	
+}
+
+.orders {
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+	border-collapse: collapse;
+	font-family: "Comic Sans MS";	
+
+}
+
+.orders td{
+	border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    color: black;
+	
+	
+}
+
+.orders tr:last-of-type {
+	background-color: brown;
+    border:none;
+    color: lightcyan;
+	
+}
+
+
+.orders th{
+	background-color: darkslateblue;
+    border-right: 1px solid black;
+    padding: 3px;
+    padding-bottom: 5px;
+    color: limegreen;
+}
+
+tr > th {
+    border: 3px solid black;
+    padding: 3px;
+    padding-right: 4px;
+}
+
+
+
+

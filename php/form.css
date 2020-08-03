@@ -1,0 +1,95 @@
+.error {
+    color: red;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em;
+    
+}
+
+input[type="text"] {
+    width: 20%;
+    height: 30px;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+}
+
+.shop {
+    font-size: 16pt;
+}
+
+.movie-select {
+    height: 40px;
+    margin-left: 80px;
+}
+
+input[type="submit"], input[type="reset"] {
+
+    color: white;
+    padding: 0.8em 2.5em;
+    border: none;
+    border-radius: 12px;
+    font-size: 14pt;
+    text-align: center;
+    box-shadow: 2px 3px 5px #000000;
+    margin: 0.5em 0.9em;
+    cursor: pointer;
+
+
+
+}
+
+input[type="submit"]:active, input[type="reset"]:active {
+    box-shadow: none;
+}
+
+input[type="submit"] {
+    background-color: #006400;
+}
+
+input[type="submit"]:hover {
+    background-color: #004200;
+}
+
+input[type="reset"] {
+    background-color: #FF4500;
+}
+
+input[type="reset"]:hover {
+    background-color: #DD2300;
+}
+
+
+.email {
+    margin-left: 15px;
+}
+
+.firstName {
+    margin-left: 50px;
+}
+
+.lastName {
+    margin-left: 52px;
+}
+
+
+.quantity {
+    margin-left: 64px;
+}
+
+
+.product .movie {
+    margin-top: 10px;
+    
+}
+
+
+
+.orders {
+    font-size: 16pt;
+}
+

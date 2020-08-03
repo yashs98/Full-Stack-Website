@@ -1,0 +1,278 @@
+
+* {
+    box-sizing: border-box;
+ 
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+
+body {
+	background-image: url("../images/lightbackground.jpg");
+	
+}
+
+table {
+	margin-left:auto; 
+    margin-right:auto;
+	padding: 5px;
+	margin-top: 10px;
+	
+}
+
+.movies {
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+	border-collapse: collapse;
+	font-family: "Comic Sans MS";
+	background-color: aqua;
+
+}
+
+.movies td{
+	border-bottom: 1px dashed black;
+	border-right: 1px dashed black;
+	
+	
+}
+
+.movies tr:last-of-type {
+	background-color: darkgoldenrod;
+	border:none;
+	
+}
+
+
+.movies th{
+	background-color: darkorange;
+	border-right: 1px solid black;
+}
+
+
+.videogames caption {
+	font-weight: bold;
+	font-size: 12pt;
+	color: purple;
+	
+	
+}
+
+.videogames {
+	font-family: Tahoma;
+}
+
+.videogames th {
+	color: white;
+	background-color: darkgreen;
+}
+
+.videogames tr:nth-child(even) {
+	color: white;
+	background-color: grey;
+	
+	
+}
+
+.schedule {
+
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+	border-collapse: collapse;
+	font-family: "Comic Sans MS";
+	background-color: lightseagreen;
+
+}
+
+.schedule td{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	
+	
+}
+
+.hobbies {
+	background-color: yellowgreen;
+}
+
+#r1 {
+	text-shadow: 1px 2px red;
+}
+
+
+.email:link {
+	color: #B22222;
+}
+
+.email:visited {
+	color: #CD5C5C;
+}
+
+.email:hover {
+	color: #900002
+}
+
+.email:active {
+	color: blue;
+}
+
+abbr:hover {
+	background-color: navy;
+	color: white;
+
+}
+
+  
+.navbar a {
+
+	float: left;
+	font-size: 16px;
+
+	text-align: center;
+
+	padding: 16px;
+	margin-right: 15px;
+	text-decoration: none;
+
+	border: 3px;
+	border-style: solid;
+
+	border-color:red;
+	color: red;
+	border-radius: 10px;
+	background-color: white;
+
+
+}
+	
+	
+
+
+a.active {
+	background-color: springgreen;
+
+	color: darkblue;
+	border-color: darkblue;
+}
+
+  
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+  
+.dropdown a:hover { 
+	box-shadow: 5px 6px gray;
+
+}
+
+.navbar a:hover, .dropdown:hover  {
+	background-color: red;
+	color: white;
+}
+
+
+.dropdown-content {
+
+	display: none;	
+	position: absolute;
+	background-color: white;
+
+}
+  
+.dropdown-content a {
+	float: none;
+	color: red;
+
+	align-content: center;
+	margin: 5px;
+	text-decoration: none;
+	display: block;
+	
+}
+  
+.dropdown-content a:hover {
+	background-color: red;
+	color: white;
+
+	box-shadow: 4px 3px gray;
+}
+  
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+section {
+	background-color: salmon;
+	width: 100%;
+	height: 100%;
+	
+}
+
+section:hover {
+	
+	animation-name: section;
+	animation-duration: 4s;
+}
+
+
+
+.mySchedule {
+	resize: horizontal;
+	overflow: auto;
+}
+
+@keyframes section {
+    from {background-color: salmon;}
+    to {background-color: violet;}
+  }
+  
+  
+@media only screen and (max-width: 480px) {
+	
+	.navbar a {
+
+
+		width: 100%;
+		height: 100%;
+
+		display: block;
+		margin: 3px;
+		padding: 8px 16px;
+		text-decoration: none;
+		align-content: center;
+		
+		
+	}
+
+	.dropdown {
+
+		width: 100%;
+		height: 100%;
+		
+		
+	}
+
+
+}
+
+
+
+.movies {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+footer {
+
+	position: absolute;
+}
+
+
